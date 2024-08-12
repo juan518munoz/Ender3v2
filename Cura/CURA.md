@@ -2,6 +2,8 @@
 
 1. Follow PDF file inside of `CuraProfiles` folder
 
+Note: all profiles have _Enable Acceleration Control_ enabled by default, disable it if you are using input shaping and/or preassure advance.
+
 Use this as your _Start G-code_:
 ```
 ; M190 S{material_bed_temperature_layer_0}
